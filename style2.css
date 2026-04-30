@@ -1,0 +1,55 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Red{
+    color: red;
+    text-align: left;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: pink;
+}
+
+.Blue{
+    color: white;
+    text-align: right;
+    border: 2px dotted black;
+    margin: 20px;
+    padding: 10px;
+    background-color: darkblue;
+}
+
+#Green{
+    color: green;
+    text-align: left;
+    border: 2px dashed green;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+#Yellow{
+    color: yellow;
+    text-align: right;
+    border: 2px solid yellow;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
